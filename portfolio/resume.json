@@ -1,0 +1,98 @@
+{
+    "basics": {
+      "name": "Curtis Pike",
+      "label": "Full stack Web Developer",
+      "picture": "",
+      "email": "cpike46@gmail.com",
+      "phone": "(818) 624-2579",
+      "website": "http://johndoe.com",
+      "summary": "A summary of John Doe...",
+      "location": {
+        "address": "10222 Camarillo street",
+        "postalCode": "CA 91602",
+        "city": "North Hollywood",
+        "countryCode": "US",
+        "region": "California"
+      },
+      "profiles": [{
+          "LinkedIn":{
+            "network": "LinkedIn",
+            "url": "https://www.linkedin.com/in/curtis-pike-a818bb197/"
+          },
+          "GitHub":{
+            "network": "GitHub",
+            "url": "https://www.linkedin.com/in/curtis-pike-a818bb197/"
+          }
+      }]
+    },
+    "work": [{
+      "company": "",
+      "position": "President",
+      "website": "http://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "website": "http://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "University",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Description..."
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }]
+  }
