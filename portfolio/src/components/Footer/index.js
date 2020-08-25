@@ -1,11 +1,12 @@
 import React from "react";
-import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Pupster 2017</span>
-    </footer>
+    <footer id="sticky-footer" className="py-4 bg-dark text-white-50">
+    <div className="container text-center">
+      <small>Copyright &copy; Curtis Pike</small>
+    </div>
+  </footer>
   );
 }
 

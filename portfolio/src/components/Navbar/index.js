@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react';
 import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Pupster
+    
+    <nav id="nav-wrap" className="navbar mb-1 navbar-expand-lg navbar-custom">
+      <Link className="navbar-brand active" to="/">
+        Curtis Pike
       </Link>
       <div>
         <ul className="navbar-nav">
@@ -25,23 +26,48 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/discover"
-              className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
+              to="/projects"
+              className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
             >
-              Discover
+              Projects
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+              to="/experience"
+              className={window.location.pathname === "/experience" ? "nav-link active" : "nav-link"}
             >
-              Search
+              Experience
             </Link>
           </li>
-        </ul>
-      </div>
-    </nav>
+          <li className="nav-item">
+            <Link
+              to="/education"
+              className={window.location.pathname === "/education" ? "nav-link active" : "nav-link"}
+            >
+              Education
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/skills"
+              className={window.location.pathname === "/skills" ? "nav-link active" : "nav-link"}
+            >
+              Skills
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+              Contact
+            </Link>
+          </li>
+          </ul>
+        </div>
+     </nav>
+
   );
 }
 
