@@ -8,7 +8,7 @@ function Projects() {
   console.log(profile[0].portfolio.projects.map(item => item.title))
   return (
     
- <section>
+ <section id="projects">
        <div backgroundimage="">
         <h1>Projects</h1>
           <h2>{profile[0].main.name}</h2>

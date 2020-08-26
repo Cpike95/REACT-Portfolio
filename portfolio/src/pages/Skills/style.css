@@ -1,6 +1,6 @@
-body {
-    background: #eeeded;
-  }
+#skills {
+  background: rgb(87, 87, 87);
+} 
   
   .card {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -21,12 +21,17 @@ body {
     margin-bottom: 0px;
     margin-top:0px;
   }
+  .card h1 {
+   color: white;
+  }
+  /* .card li {
+    display: inline;
+   } */
   .card .header {
     margin-bottom:5px;
   }
-  .card img{
-    width:100%;
-  }
+
   #card ul, #card li {
-    margin: 0; padding: 0;
+    margin: 10px; padding: 10px;
+    
 }

@@ -63,6 +63,14 @@ function Navbar() {
             >
               Contact
             </Link>
+            </li>
+            <li className="nav-item">
+            <Link
+              className= {"/contact" ? "nav-link active" : "nav-link"}
+             href="https://docs.google.com/document/d/1AIAaFEFbeJ3-DriRGxvyGA2Cnox3SvpQAhn3K0RRVf4/edit?usp=sharing"
+            >
+              Resume
+            </Link>
           </li>
           </ul>
         </div>

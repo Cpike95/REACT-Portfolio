@@ -1,12 +1,14 @@
 import React, {useState} from "react";
 import resume from "../../resumeData.json";
 import "./style.css"
+// import { IconName } from "react-icons/di";
+
 
 function Skills() {
   const profile = useState(resume);
 
   return (
-    <section>
+    <section id="skills">
       <div backgroundimage="">
         <h1>Skills</h1>
       </div>

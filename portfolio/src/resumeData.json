@@ -4,7 +4,7 @@
       "name":"Curtis Pike",
       "description":"Hey there! Thank you for coming to my webpage! My name is Curtis and I am web developer and I also work for a start up company called Dubsado as a customer support specialist. Full stack software Devloper with a certifcate from the UCLA full stack web developer extension course.",
       "image":"./images/Me copy.jpg",
-      "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+      "bio":"Hey there! Thank you for coming to my webpage! My name is Curtis and I am web developer and I also work for a start up company called Dubsado as a customer support specialist. Full stack software Devloper with a certifcate from the UCLA full stack web developer extension course.",
       "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
       "email": "cpike46@gmail.com",
       "phone": "555-555-5555",
@@ -59,7 +59,7 @@
       "experience": [
         {
         "company":"Dubsado",
-        "title":"Interm",
+        "title":"Internship",
         "years":"May 2020",
         "description":"Working in a group of 3 each of us were assigned a different task to complete for this scheduler application."
 

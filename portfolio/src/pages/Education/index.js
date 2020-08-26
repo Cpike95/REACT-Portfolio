@@ -6,7 +6,7 @@ function Education() {
   const profile = useState(resume);
 
   return (
-    <section>
+    <section id="education">
       <div backgroundimage="">
         <h1>Education</h1>
       </div>

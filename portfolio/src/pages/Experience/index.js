@@ -9,7 +9,7 @@ function Experience() {
 
   console.log(profile[0])
   return (
-    <section>
+    <section id="experience">
       <div backgroundimage="">
         <h1>Experience</h1>
       </div>

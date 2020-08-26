@@ -1,27 +1,33 @@
- /* nav.navbar.navbar-default {
+ nav.navbar.navbar-default {
     margin-bottom: 0;
     position: fixed;
   }
   .navbar-custom {
-    background-color: #653e45;
-} */
+    background-color: #000b32;
+}
 
 /* change the brand and text color */
- /* .navbar-custom .navbar-brand,
+ .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
-}  */
+    color:rgb(180, 180, 187);
+
+
+    font-weight: bold;
+} 
 
 /* change the link color */
- /* .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
-}  */
+ .navbar-custom .navbar-nav .nav-link {
+    color: rgb(180, 180, 187);
+    font-size: small;
+    font-weight: bold;
+
+} 
 
 /* change the color of active or hovered links */
- /* .navbar-custom .nav-item.active .nav-link,
+ .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
-}  */
+    color: #b01d1d;
+} 
 
 /* for dropdown only - change the color of droodown */
  /* .navbar-custom .dropdown-menu {
